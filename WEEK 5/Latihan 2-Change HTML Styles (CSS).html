@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SI-45-05</title>
+</head>
+<body>
+    <h1>What Can JavaScript Do?</h1>
+    <p id="demo">JavaScript can chage the style of an HTML element.</p>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("demo");
+        x.style.fontsize = "32px";
+        x.style.color = "red";
+    }
+    </script>
+    <button type = "button" onclick="myFunction()">Click Me!!</button>
+</body>
+</html>
